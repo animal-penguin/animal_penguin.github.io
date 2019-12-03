@@ -2,6 +2,10 @@
     font-family: cursive;
 }
 
+a {
+    text-decoration: none;
+}
+
 .topwrapper {
     background-image: url(https://animal-penguin.github.io/animal_penguin.github.io/darthvader.jpg);
     background-size: cover;
@@ -25,7 +29,9 @@
 .background-container {
     background-color: #000033;
     padding-top: 100px;
+    width: 100%;
     height: 1200px;
+    position: relative;
 }
 
 .main-container {
@@ -47,6 +53,7 @@
     width: 500px;
     margin: auto;
     text-align: center;
+    /*display: none;*/
 }
 
 .postarea h3 {
@@ -54,6 +61,63 @@
     border-bottom: 10px solid red;
 }
 
-.toystory {
+.newpost {
     width: 500px;
+}
+
+.toystory {
+    width: auto;
+    height: auto;
+    max-width: 50%;
+}
+
+.toystory-active {
+    width: auto;
+    height: auto;
+    max-width: 60%;
+}
+
+.etc {
+    width: 500px;
+    margin: 60px auto 0 auto;
+    text-align: center;
+}
+
+/*.btn {
+    display: none;
+    margin-top: 100px;
+}*/
+
+.rightside {
+    width: 200px;
+    height: 1000px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+.rightside-title {
+    color: red;
+    border-bottom: 5px solid #FF6699;
+}
+
+.rightside p {
+    color: coral;
+}
+
+.pixkup {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.pixkup img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.pixkup p {
+    color: coral;
 }
