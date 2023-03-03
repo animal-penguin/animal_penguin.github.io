@@ -8,7 +8,12 @@
 <meta http-equiv="content-language" content="ja">
 <meta name="format-detection" content="telephone=no" />
 <meta name="robots" content="noarchive">
-
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
 <!-- block=meta_title_ogp_bangohan_list (cp) -->
 <title>晩ご飯の献立メニュー | KATSUYOレシピ カツ代の家庭料理｜毎日の旬な食材を使った夕食の献立をご紹介</title>
 <meta name="description" content="チーム小林カツ代が旬の食材にこだわった「晩ご飯の献立メニュー」を毎日ご紹介！何かと悩みがちな夕飯レシピはコレを見れば解決！今日の晩御飯はコレで決まり！" />
@@ -226,6 +231,7 @@ var _sugotoku_id           = '';
 <!-- 献立リストここから -->
 <section class="new_bangohan_list">
 <h2><span class="ico ico_calendar"></span>晩ごはんの献立一覧</h2>
+ <div id="map"></div>  
 <div id="_kondate_bangohan_list"></div>
 <script type="text/javascript">
 <!--
